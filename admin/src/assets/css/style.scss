@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  body {
+    height: 100%;
+    #app {
+      height: 100%;
+    }
+  }
+}
+
+//login
+.login {
+  background-image: url(../img/background_img.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: 0px -50px;
+
+  .login-card {
+    width: 21.875rem;
+    height: 25rem;
+    margin: 5rem auto;
+    border-radius: 0.8125rem;
+    background-color: #00000068;
+    text-align: center;
+
+    h1 {
+      padding-top: 3.75rem;
+      color: #ffffff;
+      margin-bottom: 1.875rem;
+    }
+
+    .login-card-form {
+      width: 18.75rem;
+      margin: 0 auto;
+    }
+
+    input {
+      border: none;
+      background: none;
+      border-bottom: #ffffff 2px solid;
+      padding: 5px 10px;
+      outline: none;
+      color: #ffffff;
+    }
+
+    button {
+      // line-height: 30px;
+      margin-top: 30px;
+      width: 130px;
+
+      border-radius: 13px;
+      outline: none;
+      border: none;
+      background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+      color: #ffffff;
+    }
+    button:hover {
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+  }
+}

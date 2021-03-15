@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "654295",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1440898",
+      "name": "哭脸",
+      "font_class": "kulian",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1834558",
+      "name": "符号-哭脸-line",
+      "font_class": "kulian-line",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "4735338",
+      "name": "icon_笑脸-线",
+      "font_class": "icon_xiaolian-xian",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "11520201",
+      "name": "哭脸",
+      "font_class": "kulian1",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "13582433",
+      "name": "笑脸好评",
+      "font_class": "xiaolianhaoping",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "16136959",
+      "name": "icon-笑脸",
+      "font_class": "icon-xiaolian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "17935577",
+      "name": "63哭脸",
+      "font_class": "_kulian",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

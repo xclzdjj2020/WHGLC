@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2832496",
+      "name": "合格",
+      "font_class": "hege",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "13042656",
+      "name": "人数",
+      "font_class": "renshu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "18515082",
+      "name": "不合格品unqualified",
+      "font_class": "buhegepinunqualified",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}
