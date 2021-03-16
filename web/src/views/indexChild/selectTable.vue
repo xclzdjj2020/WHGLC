@@ -101,6 +101,7 @@ export default {
       所以利用重新渲染组件强制tab的激活选项卡回到第1位
       */
       this.forceRerender() //强制改变key值，重新渲染组件
+      
     })
   },
   mounted() {
@@ -125,9 +126,9 @@ export default {
     //根据日期 站队id 请求数据
     async getStatusData(nowData = moment().format('YYYY-MM-DD'), ssdwdm) {
       const res = await this.$http.get(`index/${nowData}/${ssdwdm}`)
-      console.log(nowData)
       this.statusData = res.data
       this.showarr = this.statusData.slice(this.pageindex, this.pagesize)
+      this.pagenum = 1
     },
 
     //点击tab触发事件
